@@ -41,7 +41,7 @@ jobs:
     # Used to pull node distributions from node-versions.  Since there's a default, this is typically not supplied by the user.
     token: # optional, default is ${{ github.token }}
     # Deprecated. Use node-version instead. Will not be supported after October 1, 2019
-    version: 12
+    version: 13
     - name: GitHub Action for Yarn
      uses: Borales/actions-yarn@v2.3.0
      with:
